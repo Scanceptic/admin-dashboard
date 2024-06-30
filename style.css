@@ -19,7 +19,7 @@ body {
 .container {
     display: grid;
     grid-template-columns: 1fr 1.5fr 1.5fr 1fr;
-    grid-template-rows: 200px auto;
+    grid-template-rows: 150px auto;
     min-height: 100vh;
 }
 
