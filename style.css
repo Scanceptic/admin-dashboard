@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --main-bg-color: #FFAAFF;
+    --second-bg-color: #FFCCFF;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
