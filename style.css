@@ -173,6 +173,10 @@ a:hover {
 	text-decoration: underline;
 }
 
+a > img:hover {
+	background-color: var(--card-accent-color);
+}
+
 .content {
 	background-color: var(--content-bg-color);
 	grid-column: 2 / 5;
@@ -202,11 +206,19 @@ a:hover {
 	height: 250px;
 	overflow: scroll;
 	min-width: 200px;
+	display: grid;
+	grid-template-rows: 1fr 9fr 1fr;
 }
 
 .project-card p {
 	font-weight: 500;
 	margin-top: 5px;
+}
+
+.actions {
+	margin-left: auto;
+	min-width: 90px;
+	margin-right: 10px;
 }
 
 .col-right {
