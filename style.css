@@ -209,6 +209,15 @@ a:hover {
 	display: grid;
 }
 
+.announcement-card {
+	border-bottom: 2px solid lightgrey;
+	margin-top: 10px;
+}
+
+.announcement-card:nth-last-child(1) {
+	border-bottom: none;
+}
+
 .trending-container {
 	grid-column: 2 / 3;
 	grid-row: 2 / 3;
