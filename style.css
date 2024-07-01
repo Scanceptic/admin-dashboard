@@ -172,10 +172,41 @@ a:hover {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr;
+	gap: 15px;
+	padding: 15px;
 }
 
-.card {
+.project-card {
 	background-color: var(--main-bg-color);
-	border-radius: 15px;
-	border-left: 2px solid var(--card-accent-color);
+	border-radius: 10px;
+	border-left: 10px solid var(--card-accent-color);
+	padding: 20px;
+	height: 250px;
+}
+
+.project-card p {
+	font-weight: 500;
+	margin-top: 5px;
+}
+
+.announcements-container {
+	grid-column: 2 / 3;
+	grid-row: 1 / 2;
+	height: 300px;
+	width: 100%;
+}
+
+.announcements {
+	background-color: var(--main-bg-color);
+}
+
+.trending-container {
+	grid-column: 2 / 3;
+	grid-row: 2 / 3;
+	height: 300px;
+	width: 100%;
+}
+
+.trending {
+	background-color: var(--main-bg-color);
 }
