@@ -39,6 +39,26 @@ body {
 	grid-template-rows: 1fr 1fr;
 }
 
+.searchbar {
+	display: grid;
+	grid-template-columns: 1fr 7fr;
+}
+
+.profile {
+	display: grid;
+	grid-template-columns: 1fr 1fr 4fr;
+}
+
+.welcome {
+	display: grid;
+	grid-template-columns: 1fr 5fr;
+}
+
+.upload {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
 #search {
 	background-color: var(--content-bg-color);
 	border: none;
@@ -67,6 +87,8 @@ button {
 	height: 30px;
 	width: 75px;
 	border: none;
+	padding: 5px;
+	margin: 0 5px;
 }
 
 .sidebar {
