@@ -187,6 +187,7 @@ a:hover {
 	border-left: 10px solid var(--card-accent-color);
 	padding: 20px;
 	height: 250px;
+	overflow: scroll;
 }
 
 .project-card p {
@@ -199,11 +200,17 @@ a:hover {
 	grid-row: 1 / 2;
 }
 
+.announcements-container,
+.trending-container {
+	padding: 15px 0;
+	margin: 0 10px;
+}
+
 .announcements,
 .trending {
 	background-color: var(--main-bg-color);
-	height: 80%;
-	width: 90%;
+	height: 400px;
+	width: 300px;
 	border-radius: 5px;
 	padding: 20px;
 	display: grid;
