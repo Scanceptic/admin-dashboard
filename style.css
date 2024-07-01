@@ -209,7 +209,7 @@ a:hover {
 .announcements,
 .trending {
 	background-color: var(--main-bg-color);
-	height: 400px;
+	height: 350px;
 	width: 300px;
 	border-radius: 5px;
 	padding: 20px;
@@ -233,8 +233,8 @@ a:hover {
 .trending-card {
 	display: grid;
 	grid-template-columns: 1fr 3fr;
-	/*grid-template-rows: 1fr 1fr;*/
 	gap: 0;
+	align-self: center;
 }
 
 .trending-card > img {
@@ -243,15 +243,14 @@ a:hover {
 	margin: auto;
 }
 
-.trending-card div {
-	padding: 5px 0;
-	margin: auto 0;
-	line-height: 1rem;
+.trending-card > div {
+	margin: 0 10px;
 	font-weight: 500;
 	font-style: italic;
+	line-height: 1.5rem;
 }
 
-.trending-card span {
+.trending-card > div > span {
 	font-weight: 700;
 	font-style: normal;
 }
