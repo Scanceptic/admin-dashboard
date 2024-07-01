@@ -73,7 +73,7 @@ body {
 	color: var(--secondary-txt-color);
 }
 
-p {
+.header {
 	font-weight: 700;
 }
 
@@ -236,10 +236,10 @@ a:hover {
 	margin: auto;
 }
 
-.trending-card > p {
-	padding: 0;
+.trending-card div {
+	padding: 5px 0;
 	margin: auto 0;
-	line-height: 0.5rem;
+	line-height: 1rem;
 	font-weight: 500;
 	font-style: italic;
 }
