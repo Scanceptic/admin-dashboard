@@ -41,6 +41,21 @@ body {
 	grid-column: 1 / 2;
 	grid-row: 1 / 3;
 	color: var(--secondary-txt-color);
+	display: grid;
+	grid-template-rows: 1fr 4fr 2fr;
+	grid-template-rows: 100px 450px 200px;
+}
+
+.dashboard {
+	grid-row: 1 / 2;
+}
+
+.nav {
+	grid-row: 2 / 3;
+}
+
+.help {
+	grid-row: 3 / 4;
 }
 
 ul {
@@ -58,6 +73,10 @@ a {
 	text-decoration: none;
 	color: inherit;
 	font-weight: 700;
+}
+
+a:hover {
+	text-decoration: underline;
 }
 
 .content {
