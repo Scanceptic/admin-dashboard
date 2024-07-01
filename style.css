@@ -1,5 +1,7 @@
 * {
 	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 :root {
@@ -9,6 +11,7 @@
 	--card-accent-color: #e9af31; /* Used for highlight on edge of cards */
 	--main-txt-color: #000000;
 	--secondary-txt-color: #ffffff;
+	--header-shadow-color: #cbd1da;
 }
 
 body {
@@ -29,6 +32,8 @@ body {
 	grid-column: 2 / 5;
 	grid-row: 1 / 2;
 	color: var(--main-txt-color);
+	position: relative;
+	box-shadow: 1px 2px 5px var(--header-shadow-color);
 }
 
 #search {
