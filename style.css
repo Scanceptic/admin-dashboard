@@ -173,10 +173,6 @@ a:hover {
 	text-decoration: underline;
 }
 
-a > img:hover {
-	background-color: var(--card-accent-color);
-}
-
 .content {
 	background-color: var(--content-bg-color);
 	grid-column: 2 / 5;
@@ -219,6 +215,10 @@ a > img:hover {
 	margin-left: auto;
 	min-width: 90px;
 	margin-right: 10px;
+}
+
+.actions a {
+	padding: 10px;
 }
 
 .col-right {
